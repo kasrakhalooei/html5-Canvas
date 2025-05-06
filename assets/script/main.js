@@ -42,3 +42,6 @@
             ctx.lineWidth = parseInt(value);
         }
     }
+function clearCanvas() {
+    ctx.strokeStyle = '#fff';
+}
