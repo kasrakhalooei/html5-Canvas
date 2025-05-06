@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap');
+:root {
+    --base :#ff0000;
+    --size :10;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Vazirmatn', sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    direction: rtl;
+}
+
+.tools-container {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tools-container input[type="color"] {
+    width: 50px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    outline: none;
+}
+
+.tools-container input[type="range"] {
+    width: 150px;
+    cursor: pointer;
+}
+
+.man {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+canvas {
+    border: 6px solid #333;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
